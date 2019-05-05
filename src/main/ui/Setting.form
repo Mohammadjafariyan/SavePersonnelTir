@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="main.ui.Setting">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FormLayout">
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:d:noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <colspec value="fill:d:noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <constraints>
+      <xy x="20" y="20" width="820" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="9c848" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <font size="26"/>
+          <model/>
+        </properties>
+      </component>
+      <component id="2de71" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <font size="26"/>
+          <text value="ماه"/>
+        </properties>
+      </component>
+      <component id="cb667" class="javax.swing.JComboBox" binding="comboBox2" default-binding="true">
+        <constraints>
+          <grid row="2" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <font size="26"/>
+        </properties>
+      </component>
+      <component id="4c9d8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <font size="26"/>
+          <text value="روز"/>
+        </properties>
+      </component>
+      <component id="b6ec" class="javax.swing.JComboBox" binding="comboBox3" default-binding="true">
+        <constraints>
+          <grid row="2" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <font size="26"/>
+        </properties>
+      </component>
+      <component id="9ba19" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <font size="26"/>
+          <text value="مسیر خروجی فایل اسکل"/>
+        </properties>
+      </component>
+      <component id="dc92" class="javax.swing.JButton" binding="تغییرمسیرButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="تغییر مسیر"/>
+        </properties>
+      </component>
+      <component id="b3b9c" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="7" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="false"/>
+          <font size="26"/>
+        </properties>
+      </component>
+      <component id="2cd64" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <font size="26"/>
+          <text value="سال"/>
+        </properties>
+      </component>
+      <component id="147c8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <font size="26"/>
+          <text value="تاریخ "/>
+        </properties>
+      </component>
+      <component id="116ce" class="javax.swing.JButton" binding="ثبتButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <font size="26"/>
+          <text value="ثبت"/>
+        </properties>
+      </component>
+      <hspacer id="4a509">
+        <constraints>
+          <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="54b0">
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="9d2fa">
+        <constraints>
+          <grid row="12" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+      </hspacer>
+      <toolbar id="7973">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </toolbar>
+    </children>
+  </grid>
+</form>

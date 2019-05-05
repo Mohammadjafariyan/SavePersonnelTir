@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "D:\workplace\test\Users\moham\IdeaProjects\SavePersonnelTir\src\main\resources\hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+<!--
+        <property name="hibernate.connection.driver_class">org.apache.derby.jdbc.ClientDriver</property>
+-->
+        <property name="hibernate.connection.driver_class">org.apache.derby.jdbc.EmbeddedDriver</property>
+<!--
+        <property name="hibernate.connection.url">jdbc:derby://localhost:1527/tirdb</property>
+-->
+        <property name="hibernate.connection.url">jdbc:derby:tirdb;create=true</property>
+
+        <property name="hibernate.connection.username">admin</property>
+        <property name="hibernate.connection.password">admin</property>
+        <property name="hibernate.connection.pool_size">1</property>
+        <property name="hibernate.current_session_context_class">thread</property>
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql" >true </property>
+        <property name="hbm2ddl.auto" >update </property>
+        <property name="hibernate.archive.autodetection" >class </property>
+        <property name="hibernate.dialect" >org.hibernate.dialect.DerbyTenSevenDialect </property>
+        <property name="hibernate.c3p0.min_size" >5</property>
+        <property name="hibernate.c3p0.max_size" >20</property>
+        <property name="hibernate.c3p0.timeout" >1800</property>
+        <property name="hibernate.c3p0.max_statements" >50</property>
+
+
+        <!--
+                <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        -->
+
+
+            <mapping class="main.java.models.TirEntity"/>
+            <mapping class="main.java.models.SettingEntity"/>
+    </session-factory>
+</hibernate-configuration>
+<!--
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="NewPersistenceUnit">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:derby://localhost:1527/tirdb"/>
+            <property name="hibernate.connection.driver_class" value="org.apache.derby.jdbc.ClientDriver"/>
+            <property name="hibernate.connection.username" value="admin"/>
+            <property name="hibernate.connection.password" value="admin"/>
+            <property name="hibernate.archive.autodetection" value="class"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="current_session_context_class" value="thread"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hbm2ddl.auto" value="update"/>
+        </properties>
+    </persistence-unit>
+</persistence>-->
